@@ -60,13 +60,12 @@ body {
     display: flex;
     flex-direction: column;
     /* align-items: ; */
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-bottom: 24px;
+    /* margin:24px; */
+    gap: 40px;
     
 }
 
-.pad-20{padding: 20px}
+.pad-49{padding: 49px}
 
 .section-2 .card h1{
     font-family: Lora;
@@ -77,6 +76,19 @@ body {
     
 }
 
-.section-2 .card img {
-    object-fit: cover;
+.section-2 .card h3 {
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+.section-2 .card p {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
 }
