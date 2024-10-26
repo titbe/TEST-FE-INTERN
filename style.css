@@ -51,13 +51,22 @@ body {
 .section-2 .card {
     background-color: var(--Color-2, #F4F0EA);
     display: flex;
-    flex-direction: column;
     align-items: end;
     border-radius: 24px;
-   
+    width: 684px;
+}
 
+.section-2 .space {
+    display: flex;
+    flex-direction: column;
+    /* align-items: ; */
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
     
 }
+
+.pad-20{padding: 20px}
 
 .section-2 .card h1{
     font-family: Lora;
@@ -66,4 +75,8 @@ body {
     line-height: 74px;
     text-align: left;
     
+}
+
+.section-2 .card img {
+    object-fit: cover;
 }
