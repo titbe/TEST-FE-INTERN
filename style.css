@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     color: #2C2A29;
 }
@@ -16,6 +22,7 @@ background-color: red;
     gap: 32.5px;
     justify-content: center;
     background-color: yellow;
+    padding: 41px 325px 41.11px 325px;
 }
 
 .section-1 .footer-1 {
@@ -26,6 +33,12 @@ background-color: red;
     font-weight: 400;
     line-height: 22px;
     text-align: center;
-    margin-left: 41px;
+    margin: 0 325px 0 325px ;
     background-color: red;
+}
+
+.section-1 .footer-1 .p2 {
+    margin-top: 20px;
+    
+
 }
