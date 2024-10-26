@@ -1,0 +1,29 @@
+body {
+    color: #2C2A29;
+}
+
+.section-1 .header-1 {
+    font-family: Lora;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 54px;
+    text-align: center;
+
+}
+
+.section-1 .image-grid{
+    display: flex;
+    gap: 32.5px;
+    justify-content: center;
+    padding: 41px auto 41.11px auto;
+}
+
+.section-1 .footer-1 {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    padding-left: 41px;
+    background-color: red;
+}
